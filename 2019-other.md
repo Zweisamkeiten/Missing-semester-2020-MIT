@@ -38,7 +38,7 @@ date updated: 2022-04-09 10:36
 
 如果您已经熟悉流行的虚拟机管理程序/VM，您可能想了解更多关于如何从命令行友好的方式执行此操作的信息。 一种选择是 [libvirt](https://wiki.libvirt.org/page/UbuntuKVMWalkthrough) 工具包，它允许您管理多个不同的虚拟化提供程序/管理程序。
 
-libvirt 的主要目标是提供单一方式来管理多个不同的虚拟化提供程序/管理程序，例如 [KVM/QEMU](https://wiki.archlinux.org/title/QEMU "QEMU") 、 [Xen](https://wiki.archlinux.org/title/Xen "辛") 、 [LXC](https://wiki.archlinux.org/title/LXC "LXC") 、 [OpenVZ](https://openvz.org) 或 [VirtualBox](https://wiki.archlinux.org/title/VirtualBox "虚拟盒子") [管理程序](https://wiki.archlinux.org/title/Category:Hypervisors "类别：管理程序") （ [等等](https://libvirt.org/drivers.html) ）[[libvirt#^6cdbc5]]
+libvirt 的主要目标是提供单一方式来管理多个不同的虚拟化提供程序/管理程序，例如 [KVM/QEMU](https://wiki.archlinux.org/title/QEMU "QEMU") 、 [Xen](https://wiki.archlinux.org/title/Xen "辛") 、 [LXC](https://wiki.archlinux.org/title/LXC "LXC") 、 [OpenVZ](https://openvz.org) 或 [VirtualBox](https://wiki.archlinux.org/title/VirtualBox "虚拟盒子") [管理程序](https://wiki.archlinux.org/title/Category:Hypervisors "类别：管理程序") （ [等等](https://libvirt.org/drivers.html) ）[[libvirt#^6cdbc5)
 
 ## 容器
 
@@ -103,11 +103,11 @@ Bash 按空格分割参数； 并不总是想要的！
 
 - 需要使用引号来处理参数中的空格 `for f in "My Documents"`会正常工作
 
-![[Pasted image 20220408111706.png]]
+![](./attachments/Pasted%20image%2020220408111706.png)
 
 - 其他地方也有同样的问题——你看到哪里了吗？ `test -d $f`： 如果 `$f`包含空格， `test`会出错！
 
-![[Pasted image 20220408112035.png]]
+![](./attachments/Pasted%20image%2020220408112035.png)
 
 - `echo`碰巧没问题，因为 split + join by space 但是如果文件名包含换行符怎么办？！ 变成空间！
 - 引用您不想拆分的所有变量的使用
@@ -123,7 +123,7 @@ Bash 按空格分割参数； 并不总是想要的！
 - 通配时，每个匹配的文件都成为自己的参数
   - _使用_ 时仍需确保引用 ： `test -d "$f"`
 
-![[Pasted image 20220408112419.png]]
+![](./attachments/Pasted%20image%2020220408112419.png)
 
 - 可以制作高级图案：
   - `for f in a*`: 所有文件以 `a`在当前目录中
@@ -154,7 +154,7 @@ if `[` 实际上程序就是 `[`, 参数是 `$foo`, `=`, `bar`, 如果 $foo 为�
   - 最常见的： `SIGKILL`( `-9`或者 `-KILL`退出 _现在_ 相当于 `^U`
   - 还 `SIGTERM`( `-15`或者 `-TERM`): 告诉它优雅地退出
 
-![[Pasted image 20220408114643.png]]
+![](./attachments/Pasted%20image%2020220408114643.png)
 `stty -a | grep -Ewoe '(intr|quit|susp|kill|start|stop) = [^;]+'`
 `man stty | grep -C1 signal`
 获得产生信号的按键(其实即字符) ^fd9ba1
@@ -163,7 +163,7 @@ if `[` 实际上程序就是 `[`, 参数是 `$foo`, `=`, `bar`, 如果 $foo 为�
 
 - add only some change in a file with `git add -p` , 一个文件的部分添加进暂存区, 进入 `patch mode`
 
-![[Pasted image 20220408135425.png]]
+![](./attachments/Pasted%20image%2020220408135425.png)
 `y` 接受该部分 patch,
 相当与 `git add -i` 后进入 `patch mode`, `-i` 表示 add contents interactively to index , 可交互式添加内容到暂存区.
 

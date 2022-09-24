@@ -15,7 +15,7 @@ KVM 使用全虚拟化，包括 × 86 个硬件虚拟化扩展。 Docker 是在�
 ### **2.Type 2管理程序**
 
 类型 2 管理程序需要安装操作系统，例如 Ubuntu、Debian 或其他 Linux 发行版。 在 Unix/Linux 环境下，仅使用 KVM（基于内核的虚拟机）产品。 还有其他产品，比如 Linux-VServer 或者 LXC，但必须注意与 KVM 的区别，因为 LXC 只提供虚拟环境，没有虚拟机。
-![[Pasted image 20220408103139.png]]
+![](./attachments/Pasted%20image%2020220408103139.png)
 
 ## KVM 虚拟化（完全虚拟化）vs. 容器虚拟化
 
@@ -30,7 +30,7 @@ KVM 使用全虚拟化，包括 × 86 个硬件虚拟化扩展。 Docker 是在�
 ### 两种环境之间的架构差异
 
 在下图中，您可以看到两种技术之间的差异。
-![[Pasted image 20220408103222.png]]
+![](./attachments/Pasted%20image%2020220408103222.png)
 
 ### 不同技术的应用领域
 

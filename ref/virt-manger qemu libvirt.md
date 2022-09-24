@@ -24,7 +24,7 @@ Virt-manager 主要支持 KVM，但它可以与 Xen 和 LXC 等其他虚拟机�
 >
 > ### KVM 和 QEMU 有什么区别？
 >
-> QEMU 使用仿真； KVM 使用处理器扩展 (HVM) 进行虚拟化。[[virt-manger qemu libvirt#^9ac3bb]]
+> QEMU 使用仿真； KVM 使用处理器扩展 (HVM) 进行虚拟化。[[virt-manger qemu libvirt#^9ac3bb)
 > “QEMU 是一个通用的开源机器模拟器和虚拟器”。
 > 当用作机器模拟器时，QEMU 可以在另一台机器（例如您的 x86 PC）上运行为一台机器（例如 ARM 板）制作的操作系统和程序。 通过使用动态翻译，它实现了非常好的性能。
 > QEMU 可以使用 [Xen](https://wiki.archlinux.org/title/Xen "辛") 或 [KVM](https://wiki.archlinux.org/title/KVM "虚拟机") 来使用 CPU 扩展 ( [HVM](https://en.wikipedia.org/wiki/Hardware-assisted_virtualization "维基百科：硬件辅助虚拟化") ) 进行虚拟化。 当用作虚拟器时，QEMU 通过直接在主机 CPU 上执行来宾代码来实现接近原生的性能。
@@ -98,16 +98,16 @@ group = _username_
 
 # Run `virt-manager
 
-![[Pasted image 20220407140135.png]]
+![](./attachments/Pasted%20image%2020220407140135.png)
 右键 `QEMU/KVM` 选择 `NEW` 或者 左上角 加号➕
 
-![[Pasted image 20220407225332.png]]
-![[Pasted image 20220407225341.png]]
+![](./attachments/Pasted%20image%2020220407225332.png)
+![](./attachments/Pasted%20image%2020220407225341.png)
 `browse`
-![[Pasted image 20220407225411.png]]
+![](./attachments/Pasted%20image%2020220407225411.png)
 `Browse Local`
-![[Pasted image 20220407225440.png]]
-![[Pasted image 20220407225449.png]]
-![[Pasted image 20220407225459.png]]
-![[Pasted image 20220407225523.png]]
-![[Pasted image 20220407225531.png]]
+![](./attachments/Pasted%20image%2020220407225440.png)
+![](./attachments/Pasted%20image%2020220407225449.png)
+![](./attachments/Pasted%20image%2020220407225459.png)
+![](./attachments/Pasted%20image%2020220407225523.png)
+![](./attachments/Pasted%20image%2020220407225531.png)

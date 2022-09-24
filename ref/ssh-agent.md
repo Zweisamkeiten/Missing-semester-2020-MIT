@@ -102,9 +102,9 @@ eval `ssh-agent`
 ```
 使之能够在桌面环境运行后自动启动
 2. 
-![[Pasted image 20220406190338.png]]
+![](./attachments/Pasted%20image%2020220406190338.png)
 3. 
-![[Pasted image 20220406190400.png]]
+![](./attachments/Pasted%20image%2020220406190400.png)
 这样就不用每次使用有密码保护的密钥时都要输入密码了
 
 每次重启后都需要重复操作，可以通过脚本配置

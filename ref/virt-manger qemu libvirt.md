@@ -101,13 +101,13 @@ group = _username_
 ![](./attachments/Pasted%20image%2020220407140135.png)
 右键 `QEMU/KVM` 选择 `NEW` 或者 左上角 加号➕
 
-![](./attachments/Pasted%20image%2020220407225332.png)
-![](./attachments/Pasted%20image%2020220407225341.png)
+![](../attachments/Pasted%20image%2020220407225332.png)
+![](../attachments/Pasted%20image%2020220407225341.png)
 `browse`
-![](./attachments/Pasted%20image%2020220407225411.png)
+![](../attachments/Pasted%20image%2020220407225411.png)
 `Browse Local`
-![](./attachments/Pasted%20image%2020220407225440.png)
-![](./attachments/Pasted%20image%2020220407225449.png)
-![](./attachments/Pasted%20image%2020220407225459.png)
-![](./attachments/Pasted%20image%2020220407225523.png)
-![](./attachments/Pasted%20image%2020220407225531.png)
+![](../attachments/Pasted%20image%2020220407225440.png)
+![](../attachments/Pasted%20image%2020220407225449.png)
+![](../attachments/Pasted%20image%2020220407225459.png)
+![](../attachments/Pasted%20image%2020220407225523.png)
+![](../attachments/Pasted%20image%2020220407225531.png)

@@ -38,7 +38,7 @@ date updated: 2022-04-09 10:36
 
 如果您已经熟悉流行的虚拟机管理程序/VM，您可能想了解更多关于如何从命令行友好的方式执行此操作的信息。 一种选择是 [libvirt](https://wiki.libvirt.org/page/UbuntuKVMWalkthrough) 工具包，它允许您管理多个不同的虚拟化提供程序/管理程序。
 
-libvirt 的主要目标是提供单一方式来管理多个不同的虚拟化提供程序/管理程序，例如 [KVM/QEMU](https://wiki.archlinux.org/title/QEMU "QEMU") 、 [Xen](https://wiki.archlinux.org/title/Xen "辛") 、 [LXC](https://wiki.archlinux.org/title/LXC "LXC") 、 [OpenVZ](https://openvz.org) 或 [VirtualBox](https://wiki.archlinux.org/title/VirtualBox "虚拟盒子") [管理程序](https://wiki.archlinux.org/title/Category:Hypervisors "类别：管理程序") （ [等等](https://libvirt.org/drivers.html) ）[[libvirt#^6cdbc5)
+libvirt 的主要目标是提供单一方式来管理多个不同的虚拟化提供程序/管理程序，例如 [KVM/QEMU](https://wiki.archlinux.org/title/QEMU "QEMU") 、 [Xen](https://wiki.archlinux.org/title/Xen "辛") 、 [LXC](https://wiki.archlinux.org/title/LXC "LXC") 、 [OpenVZ](https://openvz.org) 或 [VirtualBox](https://wiki.archlinux.org/title/VirtualBox "虚拟盒子") [管理程序](https://wiki.archlinux.org/title/Category:Hypervisors "类别：管理程序") （ [等等](https://libvirt.org/drivers.html) ）[[libvirt#^6cdbc5]]
 
 ## 容器
 

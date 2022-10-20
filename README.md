@@ -5,6 +5,7 @@
 This is my personal learning record for Missing-semester-2020 of MIT. 
 
 
+许多大学的课堂上不会涉及但却对每个 CSer 无比重要的工具或者知识点。例如 Shell 编程、命令行配置、Git、Vim、tmux、ssh 等等
 
 It's amazing ! I didn't realize how powerful some tools may be until I finishied this course. I LEARNED A LOT. Now I fell comfortable when I use the terminal, vim, unix-comand etc. 
 

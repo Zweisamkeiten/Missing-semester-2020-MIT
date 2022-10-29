@@ -1,6 +1,6 @@
 ---
 date created: 2022-04-08 10:21
-date updated: 2022-09-29 16:10
+date updated: 2022-10-29 19:16
 ---
 
 一. 课程概览和shell
@@ -29,7 +29,7 @@ date updated: 2022-09-29 16:10
 9. shell history fc -A 等命令的使用 [[02.Shell_Tools_and_Scripting#^73fa2c]]
 10. shell 基础算术运算 [Bash Arithmetic 算术运算](Bash%20Arithmetic%20算术运算)
 11. shell for while until 三种循环写法 [[02.Shell_Tools_and_Scripting#^c59cfa]]
-12. shell 中 比较判断 man test 
+12. shell 中 比较判断 man test
 13. 在 bash 中使用 `[[ .. )` 代替 `[` 解释是 前者为 bash 内置比较器， 后者实际上是 `test` 执行程序的另一名字，后者实际上在执行 `[` 程序 , `[` 与 `test` 的唯一区别是它需要用 `]` 来结尾. [[02.Shell_Tools_and_Scripting#^06341f]][[02.Shell_Tools_and_Scripting#^ac8740]] [[2019-other#^61c85f]]
 
 ---
@@ -99,6 +99,32 @@ date updated: 2022-09-29 16:10
 4. Git 引用是指向 `sha-1` 提交的指针，可以被更新指向新的提交 [[06.Version Control (Git)#^8a5362]]
 5. git blame && git show 查看某文件的某一行最后一次提交的提交信息是什么 [[06.Version Control (Git)#^fbbffc]]
 6. git stash && git stash pop 应用 [[06.Version Control (Git)#^37f793]]
+
+---
+
+七. 调试与性能分析
+
+1. [`lnav`](http://lnav.org/)，为日志文件提供改进的表示和导航。 [lnav](07.Debugging%20and%20Profilling.md#^921a55)
+2. [`ipdb`](https://pypi.org/project/ipdb/)是一个改进的 `pdb` [ipdb](07.Debugging%20and%20Profilling.md#^f47a17)
+3. 修改版 [`pwndbg`](https://github.com/pwndbg/pwndbg) `是一个 GDB 插件` [pwndbg](07.Debugging%20and%20Profilling.md#^50e7b1)
+4. strace 调试的是**黑盒二进制文件**, 追踪系统调用 [strace](07.Debugging%20and%20Profilling.md#^588058)
+5. pyflake, mypy 静态分析工具 [linter](07.Debugging%20and%20Profilling.md#^422b5f)
+6. 性能分析 以及性能分析工具 [性能分析](07.Debugging%20and%20Profilling.md#性能分析)
+7. [资源监控](07.Debugging%20and%20Profilling.md#资源监控)
+8. hyperfine 基准测试 [hyperfine](07.Debugging%20and%20Profilling.md#^d01b3b)
+
+---
+
+八. 元编程
+
+1. Git 可以作为一个简单的 CI 系统来使用 pre-commit 在commit前自动执行命令, 也进行错误处理 [git pre-commit](08.Metaprogramming.md#^5e725e)
+
+---
+
+九. 安全
+
+1. 非对称加密 ssh [ssh非对称加密的应用](09_security.md#^68186e)
+2. [gpg](09_security.md#^dc731c)
 
 ---
 
